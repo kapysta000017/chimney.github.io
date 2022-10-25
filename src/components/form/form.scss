@@ -1,0 +1,171 @@
+.form {
+  padding: 0px 140px;
+  &__title {
+    margin: 0;
+    text-transform: uppercase;
+    @extend %montserrat800;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+  }
+  &__text {
+    @extend %montserrat400;
+    margin: 0;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 33px;
+  }
+  &__icons {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 39px;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__wrapper {
+    padding: 57px 55px 61px 59px;
+    width: 100%;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+    margin-bottom: 124px;
+  }
+  &__wrapper-text_top {
+    @extend %montserrat500;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  &__wrapper-text_bottom {
+    @extend %montserrat400;
+    margin: 0;
+    margin-bottom: 22px;
+  }
+  &__wrapper-text_orange {
+    @extend %montserrat700;
+    color: #ea6628;
+  }
+  &__name {
+    padding: 17px 149px 17px 17px;
+    width: 240px;
+    margin-right: 12px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+  }
+  &__name::placeholder {
+    @extend %montserrat500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  &__surname {
+    padding: 17px 124px 17px 17px;
+    width: 240px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-right: 12px;
+  }
+  &__surname::placeholder {
+    @extend %montserrat500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  &__action {
+    width: 240px;
+    padding: 18px 0;
+    background: #215359;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    @extend %montserrat700;
+    color: white;
+  }
+  &__auth {
+    display: flex;
+  }
+}
+@media (max-width: 1862px) {
+  .form__wrapper-text_top {
+    text-align: center;
+  }
+  .form__wrapper-text_bottom {
+    text-align: center;
+  }
+}
+@media (max-width: 1742px) {
+  .form__auth {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form__name {
+    margin-right: 0px;
+    margin-bottom: 15px;
+    width: 354px;
+  }
+  .form__surname {
+    margin-right: 0px;
+    width: 354px;
+  }
+  .form__action {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 1640px) {
+  .form {
+    padding: 0px 0px;
+  }
+}
+@media (max-width: 545px) {
+  .form {
+    &__title {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 26px;
+      margin-bottom: 23px;
+    }
+    &__wrapper {
+      box-shadow: none;
+      margin-bottom: 60px;
+      border-top: 1px solid #e5e5e5;
+      padding: 42px 40px 46px 44px;
+      margin-bottom: 20px;
+    }
+    &__wrapper-text_top {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    &__wrapper-text_bottom {
+      font-size: 14px;
+      line-height: 25px;
+    }
+    &__icons {
+      margin-bottom: 25px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .form {
+    &__wrapper {
+      padding: 25px 0px;
+    }
+    &__name {
+      width: 100%;
+    }
+    &__surname {
+      width: 100%;
+    }
+    &__action {
+      width: 100%;
+    }
+  }
+}
