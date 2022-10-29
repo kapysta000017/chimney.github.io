@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX homework</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <p>Введите свое имя пользователя на GitHub</p>
+      <form>
+        <input
+          class="input-name js-input"
+          type="text"
+          name="name"
+          placeholder="Введите свое имя GitHub"
+        />
+        <button class="load-button js-load" type="submit">
+          Загрузить данные
+        </button>
+      </form>
+      <p class="warning">Введите имя</p>
+      <p>Введите свое имя пользователя на jsonplaceholder</p>
+      <form>
+        <input
+          class="input-name js-input-user"
+          type="text"
+          name="name"
+          placeholder="Введите имя на jsonplaceholder"
+        />
+        <button class="load-button js-load-user">Загрузить данные</button>
+      </form>
+      <p class="warning-user">Введите имя без чисел и латиницей</p>
+      <div class="results-container js-results"></div>
+    </div>
+  </body>
+  <script src="./scripts/github.js"></script>
+  <script src="./scripts/placeholder.js"></script>
+</html>
