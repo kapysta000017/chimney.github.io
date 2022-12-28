@@ -1,5 +1,5 @@
-chimney 1 - 2
-ajax 3
-input-lottery 4
-localstorage 5
-https://github.com/kapysta000017/sdaem 6 - до последнего
+chimney 1
+ajax 2
+input-lottery 3
+localstorage 4
+курсовая - https://github.com/kapysta000017/sdaem 5 - до последнего
