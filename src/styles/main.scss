@@ -6,7 +6,8 @@
 @import 'helpers/variables';
 
 @import 'libs/libs';
-@import '../components/components';
+// @import '../components/components';
+@import './../components/components.scss';
 * {
   box-sizing: border-box;
 }

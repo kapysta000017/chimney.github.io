@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://kapysta000017.github.io/hawkingbros.github.io/",
   "scripts": {
     "start": "gulp start",
     "build": "cross-env NODE_ENV=production gulp build",
