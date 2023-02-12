@@ -1,0 +1,1 @@
+(()=>{function e(t){t.preventDefault(),t.target.name.value!==""&&t.target.surname.value!==""&&alert("\u0412\u0430\u0448\u0435 \u0438\u043C\u044F  "+t.target.name.value+"  \u0412\u0430\u0448\u0430 \u0444\u0430\u043C\u0438\u043B\u0438\u044F  "+t.target.surname.value)}var r=document.getElementById("form");r.addEventListener("submit",e);})();
