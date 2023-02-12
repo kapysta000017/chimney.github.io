@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://kapysta000017.github.io/hawkingbros.github.io/",
+  "homepage": "https://kapysta000017.github.io/chimney.github.io/",
   "scripts": {
     "start": "gulp start",
     "build": "cross-env NODE_ENV=production gulp build",
@@ -40,6 +40,7 @@
     "postcss-csso": "^5.0.1",
     "postcss-normalize": "^10.0.1",
     "prettier": "^2.5.1",
+    "react-ionicons": "^4.2.0",
     "sass": "^1.43.4",
     "stylelint": "^14.2.0",
     "stylelint-config-prettier": "^9.0.3",
