@@ -20,4 +20,3 @@ try {
 // .then(() => console.log("Вы выиграли"))
 // .then(() => console.log("Вам заплатили"))
 // .catch(() => console.log("Вы проиграли"))
-// .finally(() => console.log("Игра закончена"))
